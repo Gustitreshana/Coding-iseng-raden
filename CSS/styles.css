@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*,
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR ATAS */
+.navbar-atas {
+    display: flex;
+    width: 1440px;
+    padding: 11px 51px;
+    gap: 50%;
+}
+
+.menu-logo {
+    display: flex;
+    width: 533px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 36px;
+    flex-shrink: 0;
+}
+
+.navbar-atas>.menu-logo>a {
+    color: #007B99;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* NAVBAR BAWAH */
+.container-nav-bawah {
+    display: flex;
+    width: 1440px;
+    padding: 14px 56px;
+    align-items: center;
+    gap: 234px;
+    background: #007B99;
+}
+
+.wrapper-menu {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    flex: 1 0 0;
+}
+
+.menu {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.action-group {
+    display: flex;
+    width: 369px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+}
+
+.action-group>input {
+    width: 276px;
+    height: 38px;
+    flex-shrink: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 48px;
+    border: 1.5px solid #E4E4E4;
+    outline: none;
+    background-color: #007B99;
+    color: #FFF;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+.icon-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+/* CONTENT BANNER & KATEGORI PRODUK */
+.container-banner>img {
+    display: flex;
+    width: 1440px;
+    height: 829px;
+    flex-shrink: 0;
+}
+
+.container-kategori {
+    display: flex;
+}
+
+.wrapper-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 48px;
+}
+
+.judul-kategori {
+    color: #00728D;
+    text-align: center;
+    font-family: Area;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.content-kategori {
+    display: flex;
+    gap: 50px;
+}
+
+.items-kategori {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00728D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 24px;
+}
+
+.items-kategori>img {
+    width: 155px;
+    height: 155px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #D9D9D9;
+}
+
+.items-kategori>img:hover {
+    cursor: pointer;
+}
+
+/* CONTENT PROMO */
+.container-3 {
+    width: 1440px;
+    height: 846px;
+    flex-shrink: 0;
+    background: #F0FCFF;
+    margin-top: 48px;
+}
+
+.wrapper-3 {
+    padding-top: 24px;
+}
+
+.wrapper-judul-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.wrapper-judul-3>h1 {
+    color: #00728D;
+    text-align: center;
+    font-family: Area;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.wrapper-judul-3>p {
+    display: flex;
+    width: 608px;
+    height: 45px;
+    flex-direction: column;
+    justify-content: center;
+    color: #4D4D4D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wrapper-foto-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.foto-3-kiri>img {
+    border-radius: 20px;
+}
+
+.foto-3-kanan {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* CONTENT SERIES DAN KOLABORASI */
+.judul-4 {
+    margin-top: 48px;
+}
+
+.judul-4>h1 {
+    color: #00728D;
+    text-align: center;
+    font-family: Area;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+
+.judul-4>p {
+    display: flex;
+    width: 506px;
+    height: 45px;
+    flex-direction: column;
+    justify-content: center;
+    color: #4D4D4D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box-menu-4 {
+    border: 1px solid #E4E4E4;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-menu-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 27px;
+}
+
+.wrapper-menu-4>p {
+    color: #007B99;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #00728D;
+    padding: 10px 22px;
+    border-radius: 11px;
+}
+
+.wrapper-menu-4>p:hover {
+    cursor: pointer;
+}
+
+.foto-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-top: 48px;
+    gap: 24px;
+}
+
+.foto-4>img {
+    border-radius: 10px;
+}
+
+.btn-marvel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.btn-marvel>button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    height: 52px;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 2px solid #92CB2D;
+    background: #00728D;
+    box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.btn-marvel>button:hover {
+    cursor: pointer;
+}
+
+/* CONTENT PRODUK REKOMENDASI */
+.container-5 {
+    width: 1440px;
+    height: 776px;
+    flex-shrink: 0;
+    background: #F5F5F5;
+    margin-top: 96px;
+    border: 1px solid #DFDFDF;
+}
+
+.wrapper-5 {
+    width: fit-content;
+    margin-top: 96px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 13px;
+    border-radius: 18px;
+    border: 1px solid #DFDFDF;
+    background: #FFF;
+}
+
+.wrapper-5>.produk-rekomendasi {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    padding: 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #92CB2D;
+    background: #00728D;
+    box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.25) inset, 0px 2px 3px 0px rgba(0, 0, 0, 0.18);
+}
+
+.wrapper-5>p {
+    display: flex;
+    padding: 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    color: #00728D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
